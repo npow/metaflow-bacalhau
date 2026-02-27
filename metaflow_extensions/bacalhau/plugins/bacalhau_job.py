@@ -32,7 +32,6 @@ _POLL_INTERVAL = 5
 
 from .bacalhau_exceptions import (  # noqa: E402 — after module-level constants
     BacalhauException,
-    BacalhauKilledException,
     _upgrade_bases,
 )
 

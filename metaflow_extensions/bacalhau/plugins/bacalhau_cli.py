@@ -15,7 +15,6 @@ from metaflow._vendor import click
 from metaflow.exception import METAFLOW_EXIT_DISALLOW_RETRY, CommandException
 from metaflow.metadata_provider.util import sync_local_metadata_from_datastore
 from metaflow.metaflow_config import DATASTORE_LOCAL_DIR
-from metaflow.mflog import TASK_LOG_SOURCE
 
 from .bacalhau_exceptions import BacalhauException
 from .bacalhau_job import BacalhauJob
@@ -159,7 +158,7 @@ def step(
     )
 
     # ── Open the task datastore so Metaflow can tail logs ─────────────────────
-    ds = ctx.obj.flow_datastore.get_task_datastore(
+    ctx.obj.flow_datastore.get_task_datastore(
         mode="w",
         run_id=kwargs["run_id"],
         step_name=step_name,

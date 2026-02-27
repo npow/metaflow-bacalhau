@@ -20,7 +20,6 @@ if _PKG_ROOT not in sys.path:
 
 from metaflow_extensions.bacalhau.plugins.bacalhau_exceptions import (  # noqa: E402
     BacalhauException,
-    BacalhauKilledException,
 )
 from metaflow_extensions.bacalhau.plugins.bacalhau_job import (  # noqa: E402
     BacalhauJob,
