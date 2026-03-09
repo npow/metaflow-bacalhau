@@ -4,7 +4,7 @@
 [![PyPI](https://img.shields.io/pypi/v/metaflow-bacalhau)](https://pypi.org/project/metaflow-bacalhau/)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Python 3.8-3.11](https://img.shields.io/badge/python-3.8--3.11-blue.svg)](https://www.python.org/downloads/)
-[![Status: WIP](https://img.shields.io/badge/status-WIP-yellow.svg)]()
+[![Status: WIP](https://img.shields.io/badge/status-WIP-yellow.svg)]() [![Docs](https://img.shields.io/badge/docs-mintlify-18a34a?style=flat-square)](https://mintlify.com/npow/metaflow-bacalhau)
 
 > **Work in progress.** This project is under active development and not yet ready for production use.
 
